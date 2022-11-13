@@ -13,6 +13,11 @@
 		9C4EE1DB2916C95500108999 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4EE1D92916C95500108999 /* Main.storyboard */; };
 		9C4EE1DD2916C95700108999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C4EE1DC2916C95700108999 /* Assets.xcassets */; };
 		9C4EE1E02916C95700108999 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4EE1DE2916C95700108999 /* LaunchScreen.storyboard */; };
+		9C4EE1E82916D8F200108999 /* MUSIC3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C4EE1E72916D8F200108999 /* MUSIC3.mp3 */; };
+		9C4EE1EC2916D9C000108999 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4EE1EA2916D9C000108999 /* AVKit.framework */; };
+		9C4EE1ED2916D9C000108999 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4EE1EB2916D9C000108999 /* AVFoundation.framework */; };
+		9C4EE1EF2916E88700108999 /* song.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9C4EE1EE2916E88600108999 /* song.gif */; };
+		9C4EE1F32916E95F00108999 /* UIImageAnimatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4EE1F22916E95F00108999 /* UIImageAnimatedGIF.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,13 @@
 		9C4EE1DC2916C95700108999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C4EE1DF2916C95700108999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C4EE1E12916C95700108999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C4EE1E72916D8F200108999 /* MUSIC3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MUSIC3.mp3; sourceTree = "<group>"; };
+		9C4EE1EA2916D9C000108999 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		9C4EE1EB2916D9C000108999 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9C4EE1EE2916E88600108999 /* song.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = song.gif; sourceTree = "<group>"; };
+		9C4EE1F02916E95E00108999 /* Ejercicio2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ejercicio2-Bridging-Header.h"; sourceTree = "<group>"; };
+		9C4EE1F12916E95F00108999 /* UIImageAnimatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageAnimatedGIF.h; sourceTree = "<group>"; };
+		9C4EE1F22916E95F00108999 /* UIImageAnimatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageAnimatedGIF.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C4EE1ED2916D9C000108999 /* AVFoundation.framework in Frameworks */,
+				9C4EE1EC2916D9C000108999 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +56,7 @@
 			children = (
 				9C4EE1D22916C95500108999 /* Ejercicio2 */,
 				9C4EE1D12916C95500108999 /* Products */,
+				9C4EE1E92916D9BF00108999 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +71,29 @@
 		9C4EE1D22916C95500108999 /* Ejercicio2 */ = {
 			isa = PBXGroup;
 			children = (
+				9C4EE1EE2916E88600108999 /* song.gif */,
+				9C4EE1E72916D8F200108999 /* MUSIC3.mp3 */,
 				9C4EE1D32916C95500108999 /* AppDelegate.swift */,
+				9C4EE1F12916E95F00108999 /* UIImageAnimatedGIF.h */,
+				9C4EE1F22916E95F00108999 /* UIImageAnimatedGIF.m */,
 				9C4EE1D52916C95500108999 /* SceneDelegate.swift */,
 				9C4EE1D72916C95500108999 /* ViewController.swift */,
 				9C4EE1D92916C95500108999 /* Main.storyboard */,
 				9C4EE1DC2916C95700108999 /* Assets.xcassets */,
 				9C4EE1DE2916C95700108999 /* LaunchScreen.storyboard */,
 				9C4EE1E12916C95700108999 /* Info.plist */,
+				9C4EE1F02916E95E00108999 /* Ejercicio2-Bridging-Header.h */,
 			);
 			path = Ejercicio2;
+			sourceTree = "<group>";
+		};
+		9C4EE1E92916D9BF00108999 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C4EE1EB2916D9C000108999 /* AVFoundation.framework */,
+				9C4EE1EA2916D9C000108999 /* AVKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +128,7 @@
 				TargetAttributes = {
 					9C4EE1CF2916C95500108999 = {
 						CreatedOnToolsVersion = 14.0;
+						LastSwiftMigration = 1400;
 					};
 				};
 			};
@@ -125,7 +155,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C4EE1E82916D8F200108999 /* MUSIC3.mp3 in Resources */,
 				9C4EE1E02916C95700108999 /* LaunchScreen.storyboard in Resources */,
+				9C4EE1EF2916E88700108999 /* song.gif in Resources */,
 				9C4EE1DD2916C95700108999 /* Assets.xcassets in Resources */,
 				9C4EE1DB2916C95500108999 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C4EE1D82916C95500108999 /* ViewController.swift in Sources */,
+				9C4EE1F32916E95F00108999 /* UIImageAnimatedGIF.m in Sources */,
 				9C4EE1D42916C95500108999 /* AppDelegate.swift in Sources */,
 				9C4EE1D62916C95500108999 /* SceneDelegate.swift in Sources */,
 			);
@@ -285,6 +318,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TZXFA4MY8W;
@@ -303,6 +337,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.luis.Ejercicio2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Ejercicio2/Ejercicio2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -313,6 +349,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TZXFA4MY8W;
@@ -331,6 +368,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.luis.Ejercicio2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Ejercicio2/Ejercicio2-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
